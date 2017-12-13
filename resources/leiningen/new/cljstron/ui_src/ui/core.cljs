@@ -5,9 +5,9 @@
 (enable-console-print!)
 
 ;; we can get external library from deps
-;; (def Awesome (aget js/deps "awesome-component"))
-;; (def view []
-;;   [:> Awesome {:name "me"}])
+;; (def Button (aget js/deps "material-ui" "Button))
+;; (defn view []
+;;   [:> Button {:raised true} "button])
 
 (defn test-atom []
   (let [c (atom 1)]
