@@ -21,6 +21,9 @@ $ npm install electron-prebuilt -g
 # compile cljs for nodejs
 $ lein trampoline cljsbuild auto electron-dev
 
+# build the bundle first
+$ yarn run build
+
 # in another terminal session
 $ rlwrap lein trampoline run -m clojure.main  # or if you are using emacs cider, just 'C-c M-j'
 
