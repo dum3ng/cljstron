@@ -8,7 +8,8 @@
                  [figwheel "0.5.14"]
                  [reagent "0.7.0"
                   :exclusions [cljsjs/react cljsjs/react-dom]]
-                 [ring/ring-core "1.6.1"]]
+                 [ring/ring-core "1.6.1"]
+                 [re-frame "0.10.2"]]
   :plugins [[lein-cljsbuild "1.1.5"]
             [lein-figwheel "0.5.14"]]
   :profiles {:dev
